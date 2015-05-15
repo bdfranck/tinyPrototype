@@ -1,0 +1,32 @@
+<!-- Page Header -->
+<script type="text/html" id="header">
+	<div class="navbar navbar-default" >
+		<div class="container">
+		   <a class="navbar-brand" href="index.html">ATCO</a>
+		   <ul class="nav navbar-nav" data-bind="foreach: menu.items">
+		      <li data-bind="css: { 'active' : $index == $root.menu.active() }"><a href="#" data-bind="text: $data.label, attr: {'href': $data.href} "></a></li>
+		   </ul>
+		</div>
+	</div>
+</script>
+
+<!-- Page Footer -->
+<script type="text/html" id="footer">
+	<div class="container">
+		<div class="large-12 columns">
+		    <hr />
+		    <div class="row">
+		        <div class="large-6 columns">
+		            <p>&copy; Copyright blah blah blah.</p>
+		        </div>
+		    </div>
+		</div>
+	</div>
+</script>
+
+<!-- Content -->
+<script type="text/html" id="content">	
+	<div class="container">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</script>

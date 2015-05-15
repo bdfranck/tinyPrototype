@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Example Prototype</title>
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<script data-main="assets/js/main" src="assets/js/require.js"></script>
+		<script>require.config({ paths: { "main": "main-built" }}); require(["main"]);</script>
+	</head>
+	<body>
+		<div data-bind="template: 'header'"></div>
+		
+		<div class="container">
+			<h2>About</h2>
+			<p>This is the about page.</p>
+		</div>
+		<div data-bind="template: 'footer'"></div>
+	</body>
+</html>
