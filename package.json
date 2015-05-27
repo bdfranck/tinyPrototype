@@ -1,0 +1,10 @@
+{
+	"name": "tinyPrototype",
+	"dependencies": {
+		"gulp": "*",
+		"gulp-watch": "*",
+		"gulp-requirejs": "*",
+		"vinyl-ftp": "*",
+		"gulp-util": "*"
+	}
+}

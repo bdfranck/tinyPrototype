@@ -1,24 +1,32 @@
-{ 
-	"menu": {
-		"active": 0,
-		"items": [ {
-			"label": "About",
-			"href": "about.html"},
-		 {
-		 	"label": "Products",
-		 	"href": "#"
+{
+	"data": {
+		"site": {
+			"name": "Example Prototype"
+		},
+
+		"menu": {
+			"active": "0",
+			"items":
+			[{
+				"label": "About",
+				"href": "about.html"
+			},
+			{
+				"label": "Products",
+				"href": "#"
 		 },
 		 {
-		 	"label": "Contact",
-		 	"href": "#"
+				"label": "Contact",
+				"href": "#"
 		 },
 		 {
-		 	"label": "Locations",
-		 	"href": "#"
+				"label": "Locations",
+				"href": "#"
 		 },
 		 {
-		 	"label": "Help" ,
-		 	"href": "#"
-		 }]
+				"label": "Help",
+				"href": "#"
+			}]
+		}		
 	}
 }
